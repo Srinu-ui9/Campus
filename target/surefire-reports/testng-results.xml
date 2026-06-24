@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-24T16:39:54 IST" name="Suite" finished-at="2026-06-24T16:40:14 IST" duration-ms="20123">
+    <groups>
+    </groups>
+    <test started-at="2026-06-24T16:39:54 IST" name="Test_Chrome" finished-at="2026-06-24T16:40:14 IST" duration-ms="20123">
+      <class name="tests.TestLogin">
+        <test-method is-config="true" signature="initializeReports()[pri:0, instance:tests.TestLogin@703580bf]" started-at="2026-06-24T16:39:53 IST" name="initializeReports" finished-at="2026-06-24T16:39:54 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReports -->
+        <test-method is-config="true" signature="launchapp(java.lang.String)[pri:0, instance:tests.TestLogin@703580bf]" started-at="2026-06-24T16:39:54 IST" name="launchapp" finished-at="2026-06-24T16:40:02 IST" duration-ms="8552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="LogiinTest()[pri:1, instance:tests.TestLogin@703580bf]" started-at="2026-06-24T16:40:02 IST" name="LogiinTest" finished-at="2026-06-24T16:40:07 IST" duration-ms="4890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogiinTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TestLogin@703580bf]" started-at="2026-06-24T16:40:12 IST" name="teardown" finished-at="2026-06-24T16:40:14 IST" duration-ms="2312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.TestLogin@703580bf]" started-at="2026-06-24T16:40:14 IST" name="close" finished-at="2026-06-24T16:40:14 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.TestLogin -->
+      <class name="tests.LogoutTest">
+        <test-method signature="Logoutpage()[pri:2, instance:tests.LogoutTest@5a63f509]" started-at="2026-06-24T16:40:07 IST" name="Logoutpage" finished-at="2026-06-24T16:40:12 IST" duration-ms="4298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logoutpage -->
+      </class> <!-- tests.LogoutTest -->
+    </test> <!-- Test_Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
